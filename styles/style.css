@@ -1,0 +1,97 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEFEF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.answer {
+    text-align: center;
+    height: 33%;
+    margin-bottom: 20px;
+}
+
+.ask {
+    margin: 20px;
+    height: 33%;
+}
+
+.play {
+    color: white;
+    padding: 2px 25px;
+    border-radius: 10vw;
+    border: #EFEFEF 1px solid;
+    width: 150px;
+    height: 60px;
+    margin: 0 20px;
+    display: inline-block;
+
+}
+
+.bottle {
+    margin: 20px;
+    padding: 30px;
+}
+
+#pics {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#question {
+    padding: 20px;
+    text-align: center;
+    background-color: #C9C0FF;
+    border-radius: 5vw;
+    /* opacity: 0; */
+}
+
+.how-to-play-toggle {
+    margin: 0;
+    background-color: #C9C0FF;
+    border-radius: 0px 0px 40px 40px;
+    padding: 5vw 20vw;
+    font-weight: 300;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+}
+
+@media screen and (max-width: 400px) {
+    .play {
+        margin: 0px;
+    }
+
+    /* .arrow-answer, .arrow-ask{
+        display: none;
+    } */
+}
+
+#arrow-box {
+    margin: 0 10px 0 10px;
+}
+
+#arrow-box>.material-symbols-outlined {
+    cursor: pointer;
+    color: azure;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active,
+a:active {
+    border: gray 1px solid;
+}

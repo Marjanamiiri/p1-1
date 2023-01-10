@@ -1,0 +1,86 @@
+<!-- بسم الله الرحمان الرحیم -->
+<!DOCTYPE html>
+
+<head>
+    <title>Project</title>
+
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!------------------------>
+
+    <!-- Styles and fonts -->
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/welcomepage.css" type="text/css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+    <!---------------------->
+
+    <!-- JQuery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/questions.js" defer></script>
+    <!------------------->
+</head>
+
+<body>
+    <section class="answer">
+        <section id="arrow-box">
+            <!-- <div class="arrow-answer"> -->
+                <p class="material-symbols-outlined" id="backToLevel" style="color: #8774FF; float: left;">
+                    arrow_back_ios_new
+                </p>
+                <p class="material-symbols-outlined" style="color: #8774FF; cursor: default;">
+                    arrow_upward
+                </p>
+                <p class="material-symbols-outlined" id="help" style="color: #8774FF; float: right;">
+                    help
+                </p>
+                <h4 style="margin-top:0px;">answer</h4>
+            </div>
+        </section>
+        <div id="btn-box">
+            <button id="truth" class="play" style="background-color: #87CEEB;">
+                <h3>truth</h3></a>
+            </button>
+            <button id="dare" class="play" style="background-color: #E35335;">
+                <h3>dare</h3></a>
+            </button>
+            <button id="done" class="play" style="background-color: #8774FF; display: none;">
+                <div class="material-symbols-outlined">
+                    restart_alt
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section class="bottle">
+        <div id="pics"><img src="images/bottle-0.PNG" id="bottle-pics" width="100%"></div>
+    </section>
+
+    <section class="ask">
+        <div class="arrow-ask">
+            <div id="question">
+                <h3>question</h3>
+            </div>
+        </div>
+        <div id="btn-box">
+            <h4 style="margin-bottom:0px;">ask</h4>
+            <p class="material-symbols-outlined" style="color: #8774FF;  cursor: default;">
+                arrow_downward
+            </p>
+        </div>
+    </section>
+
+    <section class="how-to-play-toggle">
+        <h3>how to play:</h3>
+        <p>My dear user, this is a mobile web appliction for mobile devices that require only a web browser to be installed on the device!<br>
+            Make sure you all sit in a circle. Put the mobile in the middle and get 1 person to spin it. We don't need asker here beacuse server will give the questions but if you have good one go for it! The person who the arrow lands must do something or make confession by their choise. Click continue to begin!</p>
+        <div id="btn-box">
+            <button class="continue" id="continue-toggle">
+                <h3 style="color: white;">Continue</h3>
+            </button>
+        </div>
+    </section>
+</body>
+
+</html>
